@@ -1,0 +1,225 @@
+.sriram{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:50px;
+    background-color:white;  
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(227, 222, 222);
+    border-bottom-style:solid;
+    z-index:101;  
+  }
+  .adhi{
+    display:flex;
+    flex-direction:row;
+    width:200px;
+    height:40px;
+    background-color:white;
+    align-items:center;
+    justify-content:space-evenly;
+    cursor:pointer;
+  }
+  .shortcuts{
+    width:24px;
+    height:24px;
+    margin-left:-20px;
+    padding-left:10px;
+  }
+  .youtube-logo{
+    width:90px;
+    height:20px;
+    margin-left:-10px;
+    padding-left:5px;
+  }
+  .dhana{
+    display:flex;
+    flex:1;
+    max-width:530px;
+    height:40px;
+    background-color: white;
+    align-items:center;
+   position:relative;
+  }
+  .tooltip{
+    background-color:gray;
+    color:white;
+    font-family:arial;
+    font-size:12px;
+    position:absolute;
+    bottom:-26px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:8px;
+    padding-right:8px;
+    pointer-events:none;
+    opacity:0;
+    
+  }
+  .search:hover .tooltip,
+  .voice:hover .tooltip{
+    opacity:1;
+  }
+  .voice:hover .tooltip{
+white-space:nowrap;
+  }
+  .type{
+   width:400px; 
+   height:33px;
+  padding-left:10px;
+  flex:1;
+  border-color:rgb(192,192,192);
+  border-width:1px;
+  box-shadow:inset 1px 1px 2px rgba(0,0,0,0.15);
+  width:0;
+  }
+  .type::placeholder{
+    font-family:arial;
+    font-size:14px;
+  }
+  .search{
+    width:60px; 
+    height: 36px;
+    margin-left:-1px;
+     border-color:rgb(192,192,192);
+    background-color: rgb(245,245,245);
+    border-width:1px;
+    border-style:solid;
+    margin-left:-1px;
+    margin-right:10px;
+    cursor:pointer;
+  }
+  .search-icon{
+    height:25px;
+    width:25px;
+    margin-top:4px;
+  } 
+  .voice{
+    width:40px; 
+    height:40px;
+    cursor:pointer;
+    background-color: rgb(245,245,245);
+      border:none;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .voice-icon{
+     height:25px;
+     margin-top:4px;
+  }
+  .srinu{
+    display:flex;
+    flex-direction:row;
+    width:200px;
+    height:40px;
+    justify-content:space-between;
+    background-color:white;
+  }
+  .upload-container,.apps-container,.notifications-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+  }
+   .tooltips{
+    background-color:gray;
+    color:white;
+    font-family:arial;
+    font-size:12px;
+    position:absolute;
+    bottom:-26px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:8px;
+    padding-right:8px;
+    pointer-events:none;
+    opacity:0;
+    
+  }
+  .upload-container:hover .tooltips,
+  .apps-container:hover .tooltips,
+  .notifications-container:hover .tooltips,
+  .picture-container:hover .tooltips{
+opacity: 1;
+pointer-events:none;
+padding-left:0;
+margin-left:-6px;
+
+  }
+  .upload-container .tooltips{
+bottom:-36px;
+
+  }
+  .picture-container .tooltips{
+    bottom:-20px;
+  }
+  .upload{
+    width:40px;
+    height:40px;
+    background-color: white;
+    border:none;
+    cursor:pointer;
+  }
+  
+  .upload-icon{
+    width:25px;
+    height:25px;
+  }
+  .apps{
+    width:40px;
+    height:40px;
+    background-color: white;
+    border:none;
+    cursor:pointer;
+  }
+  .apps-icon{
+    width:25px;
+    height:25px;
+  }
+  .notification{
+    width:40px;
+    height:40px;
+    background-color: white;
+    border:none;
+    cursor:pointer;
+    position:relative;
+  }
+  .notification-icon{
+    width: 25px;
+    height:25px;
+    z-index:0;
+  }
+  .notify-number{
+    position:absolute;
+    top:6px;
+    right:5px;
+    font-size:12px;
+    font-weight:400;
+    z-index:1;
+    width:16px;
+    height: 16px;
+    background-color:rgb(222, 23, 23);
+    border-radius:50%;
+    color:white;
+    padding:0;
+  }
+  .picture{
+    width:40px;
+    height:40px;
+    border:none;
+    background-color: white;
+    margin-right:10px;
+    cursor:pointer;
+  }
+  .picture-icon{
+    width:27px;
+    height:27px;
+    border-radius:50%;
+  }
+  

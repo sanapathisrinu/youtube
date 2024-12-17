@@ -1,0 +1,64 @@
+.sidebar{
+    background-color:rgb(255, 255, 255);
+    color:black;
+    max-width:7%;
+    top:50px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    padding-top:0px;
+    top:50px;
+    z-index:101;
+    display:flex;
+    justify-content:start;
+    align-items:start;
+}
+.sidebar-icon{
+    display:flex;
+    flex-direction:column;
+    width:80px;
+   
+}
+.home,.explore,.subscrip,.library,.origin,.ymusic{
+    display:flex;
+    align-items:start;
+    justify-content:center;
+}
+.home-button,.explore-button,.subscrip-button,.origin-button,.ymusic-button,.library-button{
+    width:80px;
+    height:72px;
+    border:none;
+    background-color: white;
+    padding:5px;
+    padding-bottom:0px;
+   cursor:pointer; 
+   margin-bottom:3px;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+}
+.home-icon,.explore-icon,.subscrip-icon,.origin-icon,.ymusic-icon,.library-icon{
+    width:25px;
+    height:25px;
+    padding-right:10px;
+    padding-bottom:0;
+    color:rgb(33,37,41);
+}
+.home-name,.explore-name,.subscrip-name,.origin-name,.ymusic-name,.library-name{
+    font-family:arial;
+    font-size:10px;
+    padding-right: 12px;
+    padding-top:0;
+    margin-top:0;
+}
+.ymusic-name{
+    padding-left:0px;
+    margin-left:-5px;
+    width:70px;
+}
+.home-button:hover,.explore-button:hover,
+.subscrip-button:hover,.origin-button:hover,
+.ymusic-button:hover,.library-button:hover{
+    background-color:rgb(233, 232, 232);
+}

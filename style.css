@@ -1,0 +1,95 @@
+  .videos-grid{
+    background-color: rgb(240, 239, 239);
+    padding:10px; 
+   display:grid;
+   grid-template-columns:repeat(4,1fr);
+    column-gap:40px;
+    margin-top:50px;
+    margin-left:72px;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    gap:7px;
+    
+  }
+  
+
+  .vertical{
+    width:250px;
+   
+   
+    
+    margin-top:10px;
+    
+    margin-right:20px;
+  
+    
+  }
+  .Ram{
+    width:240px;
+    display:block;
+    object-fit:cover;
+    border-color:black;
+  margin-bottom:8px;
+  margin-top:0;
+  cursor:pointer; 
+ position:relative;
+ }
+ 
+ .Ram-image{
+  width:270px;
+  display:block;
+  object-fit:cover;
+  border-color:black;
+margin-bottom:8px;
+margin-top:0;
+cursor:pointer; 
+
+ }
+ .ram-time{
+  position:absolute;
+  background-color:black;
+  color:white;
+  bottom:12px;
+  right:10px;
+font-size:14px;
+font-weight:500;
+
+ }  
+ 
+ .unname{
+    vertical-align:top;
+    object-fit:cover;
+    display:inline-block;
+    border-radius:50%;
+    width:33px;
+    cursor:pointer;
+ }
+.subhorizontal{
+    display:inline-block;
+    vertical-align:top;
+    
+    
+}
+.Tech{
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+    width:200px;
+    margin-left:12px;
+    margin-bottom:12px;
+    margin-top:0;
+   line-height:20px;
+   cursor:pointer;
+}
+.marqe{
+    font-family:arial;
+    font-size:12px;
+    margin-left:12px;
+    margin-bottom:0;
+}
+.view{
+    font-family:arial;
+    font-size:12px;
+    margin-left:12px;
+    margin-top:4px;
+}
